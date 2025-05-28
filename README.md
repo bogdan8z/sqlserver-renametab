@@ -1,7 +1,7 @@
 # testdb1 - Rename a table
 
 ### Prerequisites
-1. **Visual studio 2022** with **Sql Server Data Tools** <sup style="font-size: 0.5em;">[1](#usef1)</sup>
+1. **Visual studio 2022** with **Sql Server Data Tools** <sup style="font-size: 0.5em;">[1](#usef2)</sup>
 1. **Microsoft Sql Server**
 
 ### Testing this locally
