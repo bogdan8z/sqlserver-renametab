@@ -6,7 +6,7 @@
 
 ### Testing this locally
 Before submitting our code we can test all the changes locally using these steps:
-1. Be sure you have installed sql server locally (let's say the server name is **localhost**)
+1. Be sure you have installed sql server locally (let's say the server name is **localhost** and the database is called **testdb1**)
 2. Build the project
 3. go to **bin/debug** folder and here run in cmd:
     >SqlPackage.exe /Action:Publish /SourceFile:"testdb1.dacpac" /TargetServerName:"**localhost**" /TargetDatabaseName:"testdb1" /TargetTrustServerCertificate:True
