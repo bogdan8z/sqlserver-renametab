@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[MyTable3]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(50) NULL
+)
