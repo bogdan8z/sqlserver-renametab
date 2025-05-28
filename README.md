@@ -42,7 +42,6 @@ Before submitting our code we can test all the changes locally using these steps
 
 7. we can test this locally using the [previously described method](#testing-this-locally)
 <br>
-<br>
 <hr>
 
 #### Useful links
