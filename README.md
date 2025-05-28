@@ -38,11 +38,9 @@ Before submitting our code we can test all the changes locally using these steps
    <RefactorLog Include="myproj.refactorlog" />
  </ItemGroup>
  ```
- where **myproj** in our case is **testdb1**
+ **myproj** in our case is **testdb1**
 
 7. we can test this locally using the [previously described method](#testing-this-locally)
-<br>
-<br>
 <br>
 <br>
 <hr>
