@@ -1,7 +1,7 @@
 # testdb1 - Rename a table
 
 ### Prerequisites
-1. **Visual studio 2022** with **Sql Server Data Tools** <sup style="font-size: 0.5em;">[1](#usef2)</sup>
+1. **Visual studio 2022** with **Sql Server Data Tools** <sup style="font-size: 0.5em; font-color: blue">[1](#usef2)</sup>
 1. **Microsoft Sql Server**
 
 ### Testing this locally
@@ -11,7 +11,7 @@ Before submitting our code we can test all the changes locally using these steps
 3. go to **bin/debug** folder and here run in cmd:
     >SqlPackage.exe /Action:Publish /SourceFile:"testdb1.dacpac" /TargetServerName:"**localhost**" /TargetDatabaseName:"testdb1" /TargetTrustServerCertificate:True
 
-### How to rename a table <sup style="font-size: 0.5em;">[2](#usef1)</sup>
+### How to rename a table <sup style="font-size: 0.5em; font-color: blue">[2](#usef1)</sup>
 1. install **Sql Server Data Tools** for **Visual Studio**
 2. open the database solution
 3. in Visual Studio open **View** -> **SQL Server Object Explorer** and select the name of the current project
