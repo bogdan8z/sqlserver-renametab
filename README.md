@@ -1,8 +1,9 @@
 # testdb1 - Rename a table
 
 ### Prerequisites
-1. **Visual studio 2022** with **Sql Server Data Tools** <sup style="font-size: 0.5em; font-color: blue">[1](#usef2)</sup>
+1. **Visual studio 2022** with **Sql Server Data Tools** <sup style="font-size: 0.5em; font-color: blue">[1](#usef1)</sup>
 1. **Microsoft Sql Server**
+1. SqlPackage <sup style="font-size: 0.5em; font-color: blue">[2](#usef2)</sup>
 
 ### Testing this locally
 Before submitting our code we can test all the changes locally using these steps:
@@ -11,7 +12,7 @@ Before submitting our code we can test all the changes locally using these steps
 3. go to **bin/debug** folder and here run in cmd:
     >SqlPackage.exe /Action:Publish /SourceFile:"testdb1.dacpac" /TargetServerName:"**localhost**" /TargetDatabaseName:"testdb1" /TargetTrustServerCertificate:True
 
-### How to rename a table <sup style="font-size: 0.5em; font-color: blue">[2](#usef1)</sup>
+### How to rename a table <sup style="font-size: 0.5em; font-color: blue">[3](#usef3)</sup>
 1. install **Sql Server Data Tools** for **Visual Studio**
 2. open the database solution
 3. in Visual Studio open **View** -> **SQL Server Object Explorer** and select the name of the current project
@@ -45,5 +46,6 @@ Before submitting our code we can test all the changes locally using these steps
 <hr>
 
 #### Useful links
-<div id="usef1">1. <a href="https://dev.to/dealeron/the-ssdt-refactor-log-4jk6">dev.to - The SSDT Refactor Log</a></div>
-<div id="usef2">2. <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42313">Install <b>Microsoft SQL Server Data Tools</b> </a></div>
+<div id="usef1">1. <a href="https://www.microsoft.com/en-us/download/details.aspx?id=42313">Install <b>Microsoft SQL Server Data Tools</b></a></div>
+<div id="usef2">2. <a href="https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-download?view=sql-server-ver17">Download and install SqlPackage</a></div>
+<div id="usef3">3. <a href="https://dev.to/dealeron/the-ssdt-refactor-log-4jk6">dev.to - The SSDT Refactor Log</a></div>
